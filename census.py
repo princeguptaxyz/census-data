@@ -31,4 +31,4 @@ for tr in table_rows:
         data.append(row)
 
 df=pd.DataFrame(data)
-df.to_csv('file1.csv')
+df.to_csv('census_data.csv')
